@@ -1,0 +1,447 @@
+{
+	"info": {
+		"_postman_id": "3849f681-67c0-40a9-aa05-2d8aaa4739c7",
+		"name": "testAppAPI data & heroku-urls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/user/get/aaaa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/user/get/thehood",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"get",
+						"thehood"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/user/store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "thehood",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "2105",
+							"type": "text"
+						},
+						{
+							"key": "adress",
+							"value": "Adidogomé, Lomé",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Barnabas",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "th@th.com",
+							"type": "text"
+						},
+						{
+							"key": "updated_at",
+							"value": "10-10-10",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "created_at",
+							"value": "10-10-10",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/user/store",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/user/edit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "thehood",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "my name",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/user/edit",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/user/delete",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "thehood",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/user/delete",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/enterprise/get/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/enterprise/get/1",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"enterprise",
+						"get",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/enterprise/getAllEnterprises/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/enterprise/getAllEnterprises/1",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"enterprise",
+						"getAllEnterprises",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/enterprise/store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "enterprise_name",
+							"value": "barn corp",
+							"type": "text"
+						},
+						{
+							"key": "num_cfe",
+							"value": "004A06DD",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/enterprise/store",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"enterprise",
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/enterprise/delete",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/enterprise/delete",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"enterprise",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/post/get/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/post/get/1",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"post",
+						"get",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/post/getAllPosts/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/post/getAllPosts/1",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"post",
+						"getAllPosts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/post/store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "mon 2 message",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre ...",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/post/store",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"post",
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/post/edit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "mon 1er message edité",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "mon 1er message edité",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/post/edit",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"post",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/post/delete",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testappapi2021.herokuapp.com/api/post/delete",
+					"protocol": "https",
+					"host": [
+						"testappapi2021",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"post",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
